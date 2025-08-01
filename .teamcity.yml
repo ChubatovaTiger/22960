@@ -15,4 +15,5 @@ jobs:
       - type: script
         script-content: >-
           curl -X GET  -H "Content-type: application/xml" -H "Accept:
-          application/xml"  "http://test:test@localhost:8111/app/rest/projects"
+          application/xml" 
+          "http://localhost:8111/app/rest/projects/id:Word1word2word3word4word5word6word7word8word9word10word11word12word1"
