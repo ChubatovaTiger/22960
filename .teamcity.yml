@@ -1,0 +1,9 @@
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: script
+        script-content: >-
+          curl -X GET  -H "Content-type: application/xml" -H "Accept:
+          application/xml" 
+          "http://admin:admin@localhost:8111/app/rest/projects"
