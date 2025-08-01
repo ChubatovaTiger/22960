@@ -7,6 +7,8 @@ jobs:
           curl -X GET  -H "Content-type: application/xml" -H "Accept:
           application/xml" 
           "http://admin:admin@localhost:8111/app/rest/projects"
+    parameters:
+      env.s: s
   Job2:
     name: Job 2
     steps:
